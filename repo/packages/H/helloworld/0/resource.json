@@ -1,0 +1,37 @@
+{
+    "assets": {
+        "container": {
+            "docker": {
+                "python-3-image": "python:3"
+            }
+        }
+    },
+    "cli": {
+        "binaries": {
+            "darwin": {
+                "x86-64": {
+                    "contentHash": [
+                        {
+                            "algo": "sha256",
+                            "value": "d2e51ba85415f9fd47e064999e3bf65e52f2d384b93ce8848a7b8901fc07118c"
+                        }
+                    ],
+                    "kind": "executable",
+                    "url": "https://github.com/mesosphere/dcos-helloworld/raw/binary/binary/dcos-helloworld"
+                }
+            },
+            "linux": {
+                "x86-64": {
+                    "contentHash": [
+                        {
+                            "algo": "sha256",
+                            "value": "03cfa719ff6922c54f1ee4f40fddc7426dffb80a3ac2241eedb98fcde105d26d"
+                        }
+                    ],
+                    "kind": "executable",
+                    "url": "https://downloads.dcos.io/cli/binaries/linux/x86-64/0/dcos-helloworld"
+                }
+            }
+        }
+    }
+}
